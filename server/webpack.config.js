@@ -66,12 +66,12 @@ module.exports = {
                 } ],
               ],
               plugins: [
-                [ "babel-plugin-module-resolver", {
-                  root: [ "./src" ],
-                  alias: {
-                    "@packages/a": path.resolve(rootPath, "../packages/a"),
-                  },
-                } ],
+                // [ "babel-plugin-module-resolver", {
+                //   root: [ "./src" ],
+                //   alias: {
+                //     "@packages/a": path.resolve(rootPath, "../packages/a"),
+                //   },
+                // } ],
                 "@babel/plugin-proposal-function-sent",
                 "@babel/plugin-proposal-export-namespace-from",
                 "@babel/plugin-syntax-dynamic-import",
@@ -107,10 +107,10 @@ module.exports = {
     ]),
   ],
 
-  resolve: {
-    symlinks: false,
-    alias: {
-      "@packages/a": path.resolve(rootPath, "../packages/a"),
-    },
-  },
+  // resolve: {
+  //   symlinks: false,
+  //   alias: {
+  //     "@packages/a": path.resolve(rootPath, "../packages/a"),
+  //   },
+  // },
 };
