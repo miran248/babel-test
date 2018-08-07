@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "@cflow/babel-test",
+  "version": "0.0.1",
+  "description": "webpack + babel + yarn workspaces = kaboom",
+  "repository": "git@github.com:miran248/babel-test.git",
+  "author": "miran248 <miran248+github@cflow.io>",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "yarn --cwd server dev"
+  },
+  "workspaces": [
+    "packages/*",
+    "server"
+  ]
+}
