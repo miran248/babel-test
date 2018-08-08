@@ -1,5 +1,7 @@
 # babel-test
 
+See [#8433](https://github.com/babel/babel/issues/8433)
+
 ### Contents
 * `packages/a` - defines class A with class properties - crashes the compilation
 * `server/src/index.js` - node app, which depends on `@packages/a`.
