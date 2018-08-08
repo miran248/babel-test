@@ -7,7 +7,7 @@
   "author": "miran248 <miran248+github@cflow.io>",
   "license": "MIT",
   "scripts": {
-    "postinstall": "yarn --cwd server dev"
+    "postinstall": "yarn --cwd server build"
   },
   "workspaces": [
     "packages/*",
